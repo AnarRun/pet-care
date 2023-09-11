@@ -33,13 +33,13 @@ export default function Home() {
             <h4>Navigation</h4>
             <ul>
               <li>
-                <Link to={'/'} style={{color: "red"}}>Home</Link>
+                <Link to={'/'} style={{color: "#232F55",textDecoration:"none"}}>Home</Link>
               </li>
               <li>
-                <Link to={'/blog'}>Blog</Link>
+                <Link to={'/blog'} style={{color:"#232F55", textDecoration:"none"}}>Blog</Link>
               </li>
               <li>
-                <Link to={'/contacts'}>Contact</Link>
+                <Link to={'/contacts'} style={{color:"#232F55", textDecoration:"none"}}>Contact</Link>
               </li>
             </ul>
           </div>
@@ -47,16 +47,16 @@ export default function Home() {
             <h4>Services</h4>
             <ul>
               <li>
-                <a href="#">Pet Care</a>
+                <a href="#" style={{color:"#232F55", textDecoration:"none"}}>Pet Care</a>
               </li>
               <li>
-                <a href="#">Pet Treatment</a>
+                <a href="#" style={{color:"#232F55", textDecoration:"none"}}>Pet Treatment</a>
               </li>
               <li>
-                <a href="#">Pet Training</a>
+                <a href="#" style={{color:"#232F55", textDecoration:"none"}}>Pet Training</a>
               </li>
               <li>
-                <a href="#">Hygienic Care</a>
+                <a href="#" style={{color:"#232F55", textDecoration:"none"}}>Hygienic Care</a>
               </li>
             </ul>
           </div>
