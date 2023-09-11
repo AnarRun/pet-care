@@ -1,0 +1,182 @@
+.mainFooter {
+    background: #EEF9FF;
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 10px;
+}
+
+.ml-20 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.first {
+    width: 257px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #232F55;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.logo-a {
+    margin-top: 15px;
+}
+
+.logo-p {
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 19px;
+    line-height: 1.8;
+    color: #232F55;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.social a {
+
+
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.navigation {
+    width: 205px;
+    margin-top: 40px;
+    margin-left: 95px;
+    text-align: left;
+    align-items: center;
+}
+
+.navigation h4 {
+    font-family: "Fredoka One", cursive;
+    color: #232F55;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400px;
+}
+
+.navigation ul li {
+    margin-bottom: 15px;
+}
+
+.services {
+    width: 205px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+.services h4 {
+    font-family: "Fredoka One", cursive;
+    color: #232F55;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400px;
+}
+
+.services ul li {
+    margin-bottom: 15px;
+}
+
+.last-text h4 {
+    font-family: "Fredoka One", cursive;
+    color: #232F55;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400px;
+}
+
+.last-text p {
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 19px;
+    line-height: 1.8;
+    color: #232F55;
+    font-size: 16px;
+
+}
+
+.last-text {
+    margin-top: 35px;
+}
+
+.input {
+
+    height: 30px;
+    padding: 10px 20px;
+    border: 1px solid #232F55;
+    border-radius: 30px;
+    background: none;
+    color: #232F55;
+    width: 100%;
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding: 17px 22px;
+    line-height: 1;
+    border-radius: 0 3px 3px 0;
+}
+
+.form {
+    position: relative;
+}
+
+.last {
+    width: 285px;
+}
+
+.back-top {
+    background: #FF3E7E;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+}
+
+.byColorlib {
+    text-align: center;
+    margin: 30px;
+}
+
+.byColorlib a, .byColorlib i {
+    color: #FF3E7E;
+}
+
+@media only screen and (min-width:376px) and (max-width: 960px) {
+    .mainFooter {
+        padding-top: 50px;
+    }
+    .ml-20 {
+        flex-direction: column;
+    }
+    .navigation, .services{
+        margin-left: 0;
+    }
+    .byColorlib {
+        margin-bottom: 50px;
+    }
+}

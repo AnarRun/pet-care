@@ -1,0 +1,418 @@
+
+.containerHome {
+    background-image: url(../../assets/h1_hero1.png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 965px;
+    position: relative;
+    /* margin: 0 !important; */
+}
+
+.sliderArea {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 570px;
+    /* height: 342px; */
+    margin-top: 210px;
+    margin-left: 35px;
+    padding-right: 15px;
+
+}
+
+.sliderArea h1 {
+    font-family: "Fredoka", sans-serif;
+    color: #023C5A;
+    font-size: 70px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.sliderArea p {
+
+    font-size: 23px
+}
+
+.leftDiv {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    /* height: 542px; */
+    /* position: relative; */
+}
+
+.hero-btn-div {
+    margin-top: 35px;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+
+    background-color: #FF3E7E;
+    font-size: 17px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-btn {
+    font-family: "DM Sans", sans-serif;
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+.pets-bye {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    width: 570px;
+    min-width: 376px;
+    height: 155px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.pets-bye img {
+    margin-left: 8px;
+}
+
+.pets-bye h2 {
+    margin-left: 22px;
+}
+
+.save-icon {
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.slidesAll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.slide {
+    width: 360px;
+    height: 388px;
+    position: relative;
+    margin-inline: 30px;
+}
+
+.title {
+    text-align: center;
+    font-family: "Fredoka One", cursive;
+    color: #023C5A;
+    font-size: 44px;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 17px
+}
+
+.services-caption {
+    position: absolute;
+    bottom: -65px;
+    background: #fff;
+    width: 65%;
+    padding-top: 34px;
+    padding-bottom: 25px;
+    padding-left: 29px;
+    padding-right: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.services-caption h3 {
+    margin-bottom: 20px;
+    line-height: 13px;
+    font-family: "Fredoka One", cursive
+}
+
+.services-caption h3 a {
+    color: #023C5A;
+    font-size: 26px;
+    font-size: 22px;
+    margin-bottom: 14px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.services-caption p {
+    color: #023C5A;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4
+}
+
+.learn-more-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.right-learn-more {
+    margin: 100px;
+}
+
+.right-learn-more h2 {
+    font-family: "Fredoka One", sans-serif;
+    color: #023C5A;
+    font-size: 44px;
+    margin-bottom: 17px
+}
+
+.right-learn-more p {
+    font-family: "DM Sans", sans-serif;
+    color: #023C5A;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.learn-btn {
+    font-family: "DM Sans", sans-serif;
+    margin-top: 35px;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #FF3E7E;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.left-learn-more {
+    display: flex;
+    align-items: flex-end;
+}
+
+.video-make {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.video-make h3 {
+    font-family: "Fredoka One", cursive;
+    font-size: 22px;
+    color: white;
+}
+
+.video-make a {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 660px;
+    background-image: url(../../assets/section_bg02.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block {
+    padding: 60px 35px 60px 60px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 30vw;
+    margin-left: 50px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.block h5 a {
+    font-size: 33px;
+    font-weight: 500;
+    color: #023C5A;
+}
+
+.block ul li {
+    list-style-type: none;
+}
+
+.logbtn {
+    margin-top: 50px;
+    background: #FF3E7E;
+    font-family: "DM Sans", sans-serif;
+    padding: 17px 31px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+.donation-contain{
+    display: flex;
+    background-image: url("../../assets/section_bg03.jpg.webp");
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texts{
+  flex-direction: column;   
+}
+.texts-h2{
+    font-size: 44px;
+    line-height: 1.5;
+    margin-bottom: 17px;
+    font-weight: 500;
+    color: #fff; 
+    font-family: "DM Sans",cursive;
+    font-weight: bolder;
+}
+.texts-p{
+    line-height: 28px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 37px;
+}
+.first-a{
+    color: #fff ;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 15px 42px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    font-family: "DM Sans",sans-serif;
+}
+.second-a{
+    font-family: "DM Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: white;
+    line-height: 1;
+    background-color:rgb(255, 62, 126) ; 
+    border-radius: 30px;
+    padding: 21px 47px;  
+    margin-left: 20px;
+     
+}
+
+@media only screen and (min-width:376px) and (max-width: 960px) {
+    .containerHome {
+        background-position: left center;
+    }
+
+    .leftDiv {
+        width: 87vw;
+    }
+
+    .sliderArea {
+        width: calc(100% - 50px);
+    }
+
+    .sliderArea h1 {
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+
+    .sliderArea p {
+        margin-bottom: 32px;
+        padding-right: 0px;
+        font-size: 18px;
+    }
+
+    .pets-bye {
+        width: 77vw;
+    }
+
+    .pets-bye h2 {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+    .learn-more-container {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-learn-more {
+        flex-direction: column;
+    }
+
+    .video-make a img {
+        width: 10vw;
+    }
+
+    .video-make {
+        margin-left: 60px;
+        margin-bottom: 180px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .right-learn-more {
+        margin: 0;
+    }
+
+    .left-learn-more img {
+        width: 80vw;
+    }
+
+    .right-learn-more h2 {
+        font-size: 25px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+
+    .right-learn-more p {
+        margin-left: 15px;
+    }
+
+    .pt-20 {
+        margin-left: 15px;
+    }
+
+    .learn-btn {
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+
+    .right-learn-more h2 {
+        font-size: 24px;
+        display: flex;
+
+    }
+
+}
