@@ -210,6 +210,7 @@
 .left-learn-more {
     display: flex;
     align-items: flex-end;
+    position: relative;
 }
 
 .video-make {
@@ -375,8 +376,8 @@
     }
 
     .video-make {
-        margin-left: 60px;
-        margin-bottom: 180px;
+        margin-left: 10px;
+        margin-bottom: 0px;
         left: 0;
         bottom: 0;
     }
@@ -413,6 +414,13 @@
         font-size: 24px;
         display: flex;
 
+    }
+    .block {
+        padding: 60px 10px 60px 10px;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 90vw;
+        margin-left: 10px;
     }
 
 }

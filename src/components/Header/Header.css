@@ -132,6 +132,10 @@
 }
 
 @media only screen and (min-width:376px) and (max-width: 960px) {
+    .firstNav {
+        padding-inline: 2px;
+        height: 50px;
+    }
     .contain {
         display: none;
     }
@@ -227,7 +231,7 @@
         border-radius: 30px;
         background: #FF3E7E;
         color: white;
-        width: 120px;
+        width: 220px;
         padding: 13px 22px;
         font-size: 16px;
         font-weight: 600;

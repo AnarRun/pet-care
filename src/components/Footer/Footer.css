@@ -8,6 +8,7 @@
 .ml-20 {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     margin-left: 20px;
 }
 
@@ -128,7 +129,7 @@ a {
     background: none;
     border: 0;
     cursor: pointer;
-    padding: 17px 22px;
+    padding: 6px 22px;
     line-height: 1;
     border-radius: 0 3px 3px 0;
 }

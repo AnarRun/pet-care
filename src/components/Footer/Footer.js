@@ -33,7 +33,7 @@ export default function Home() {
             <h4>Navigation</h4>
             <ul>
               <li>
-                <Link to={'/'}>Home</Link>
+                <Link to={'/'} style={{color: "red"}}>Home</Link>
               </li>
               <li>
                 <Link to={'/blog'}>Blog</Link>

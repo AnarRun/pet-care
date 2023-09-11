@@ -181,6 +181,7 @@
 
 .right-img {
     display: flex;
+    align-items: center;
 }
 
 .right-img a {
@@ -428,7 +429,7 @@
 }
 
 /* COL-4               */
-.col-lg-4 {
+.col-lg-4-Blog {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
     position: relative;
@@ -612,3 +613,18 @@
     line-height: 1;
     font-size: 16px;
 }
+
+@media (max-width: 960px) {
+    .rowBlog{
+       display: flex;
+       flex-direction: column;
+       margin-right: 0px;
+       margin-left: 0px;
+    }
+    .col-lg-8-Blog {
+       max-width: 100%;
+    }
+    .col-lg-4-Blog {
+       max-width: 100%;
+    }
+   }

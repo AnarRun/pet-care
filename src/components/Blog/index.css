@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    position: relative;
+
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog_details h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: "Fredoka One", cursive;
+
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.blog_details p {
+    font-family: "DM Sans", sans-serif;
+    color: #023C5A;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.mb-4 {
+    display: flex;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.mb-4 li a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.mb-4 li {
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.queto-wrapper {
+    background: rgba(198, 199, 205, 0.1);
+    line-height: 1.733;
+    color: #888888;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.queto {
+    background: #fff;
+    padding: 25px 25px 25px 30px;
+    border-left: 2px solid;
+}
+
+.navigation-top {
+    padding-top: 15px;
+    border-top: 1px solid #f0e9ff;
+}
+
+.first-navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fnav-right {
+    display: flex;
+}
+
+.fnav-right p {
+    margin-left: 10px;
+}
+
+.fnav-right p a {
+    color: #888888;
+}
+
+.like-info-left {
+    font-size: 14px;
+}
+
+.like-info-left span {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.class2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-img {
+    display: flex;
+    text-align: start;
+    align-items: center;
+}
+
+.left-img a {
+    text-decoration: none;
+}
+
+.left-img p {
+    margin-left: 10px;
+    font-family: "DM Sans", sans-serif;
+    color: #023C5A;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.prev-div a h4 {
+    margin-left: 10px;
+}
+
+.left-img h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #2d2d2d;
+    font-family: "Fredoka One", cursive;
+    font-weight: bold;
+}
+
+.right-img {
+    display: flex;
+}
+
+.right-img a {
+    text-decoration: none;
+}
+
+.right-img p {
+    margin-left: 10px;
+    font-family: "DM Sans", sans-serif;
+    color: #023C5A;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-weight: normal;
+
+}
+
+.right-img h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #2d2d2d;
+    font-family: "Fredoka One", cursive;
+    font-weight: bold;
+
+}
+
+/* BLOG AUTHOR */
+.blog-author {
+    padding: 40px 30px;
+    background: #fbf9ff;
+    margin-top: 50px;
+}
+
+.blog-author img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.blog-author p {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    color: #023C5A;
+    line-height: 30px;
+    font-weight: normal
+}
+
+.media-author {
+    display: flex;
+    align-items: center;
+}
+
+.media-body a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+.media-body h4 {
+    font-size: 18px;
+    font-family: "Fredoka One", cursive;
+    color: #023C5A;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+/* COMENT-AREA */
+.comments-area {
+    background: transparent;
+    border-top: 1px solid #eee;
+    padding: 45px 0;
+    margin-top: 50px;
+}
+
+.comments-area h4 {
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+
+.comments-area .comment-list {
+    padding-bottom: 48px;
+}
+
+.single-comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments-area .thumb {
+    margin-right: 20px;
+}
+
+.comments-area .thumb img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.comments-area .comment {
+    margin-bottom: 10px;
+    color: #777777;
+    font-size: 15px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex-1 {
+    display: flex;
+    align-items: center;
+}
+
+.d-flex-1 h5 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.comments-area h5 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: "Fredoka One", cursive;
+    color: #023C5A;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.comments-area .date {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.comments-area .btn-reply {
+    background-color: transparent;
+    color: #888888;
+    padding: 5px 18px;
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+}
+
+.reply-btn a {
+    text-decoration: none;
+
+}
+
+/* COMMENT-FORM */
+.comment-form {
+    border-top: 1px solid #eee;
+    padding-top: 45px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.comment-form h4 {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Fredoka One", cursive;
+    color: #023C5A;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.row-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.form-contact .form-group {
+    margin-bottom: 30px;
+}
+
+.form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    line-height: 1.5;
+    color: #495057;
+    padding: 0.375rem 0.75rem;
+    display: block;
+}
+
+.form-contact textarea {
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+    padding-top: 18px;
+    margin: 0;
+    font-family: inherit;
+}
+
+.col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn_1 {
+    font-family: "Fredoka One", cursive;
+    background-color: #fff;
+    border: 1px solid #FF3E7E;
+    color: #232F55 !important;
+    display: inline-block;
+    padding: 17px 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+/* COL-4               */
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sidebar {
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: stretch;
+}
+
+.form-control {
+    height: 50px;
+    border-color: #f0e9ff;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 20px;
+    border-radius: 0;
+    border-right: 0;
+}
+
+.input-group-append {
+    display: flex;
+}
+
+.boxed-btn2 {
+    background: #FF3E7E;
+    border: 1px solid #f0e9ff;
+    padding: 4px 20px;
+    color: #fff;
+}
+
+.widget_title {
+    font-family: "Fredoka One", cursive;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    color: #2d2d2d;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.list_ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.list_ul li {
+    border-bottom: 1px solid #f0e9ff;
+    padding-bottom: 12px;
+    list-style: none;
+}
+
+.li-link {
+    font-size: 14px;
+    line-height: 20px;
+    color: #888888;
+    text-decoration: none;
+    display: flex;
+}
+
+.li-link p {
+    font-family: "DM Sans", sans-serif;
+    color: #023C5A;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: normal;
+    margin-top: 0;
+    padding: 7px;
+}
+
+.media-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+.media-body {
+    padding-left: 20px;
+    align-self: center;
+    flex: 1;
+}
+
+.media-body a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.media-body h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    font-family: "Fredoka One", cursive;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    color: #2d2d2d;
+}
+
+.media-body p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0px;
+    font-family: "DM Sans", sans-serif;
+    color: #023C5A;
+    font-weight: normal;
+}
+.list_ul_2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list_ul_2 li {
+    border-bottom: 1px solid #f0e9ff;
+    padding-bottom: 12px;
+    list-style: none;
+}
+.list_ul_2 a {
+    text-decoration: none;
+    display: flex;
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    color: #888888;
+    font-size: 13px;
+}
+ /* ASIDE 5 */
+.instagram_row{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.instagram_row li {
+    width: 33.33%;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 15px;
+}
+/* ASIDE 6 */
+.form-group-last{
+    margin-bottom: 16px;
+}
+.form-control-last{
+    height: 50px;
+    border-color: #f0e9ff;
+    font-size: 13px;
+    color: #999999;
+    border-radius: 0;
+    padding-left: 20px;
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+.boxed-btn-last{
+    font-family: "Fredoka One",cursive;
+    background-color: #fff;
+    border: 1px solid #FF3E7E;
+    color: #232F55 ;
+  width: 100%;
+    padding: 17px 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1;
+    font-size: 16px;
+}
+
+@media (max-width: 960px) {
+ .row{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-left: 0px;
+ }
+ .col-lg-8 {
+    max-width: 100%;
+ }
+ .col-lg-4 {
+    max-width: 100%;
+ }
+}

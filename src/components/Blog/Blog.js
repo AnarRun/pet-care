@@ -322,7 +322,7 @@ export default function Blog() {
             {/* <!-- COMMENT-FORM FINISHED --> */}
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-4-Blog">
             <aside className="sidebar">
               <form action="#">
                 <div className="input-group">
